@@ -1,4 +1,16 @@
+//2.5 将集合视为智能指针
+//
+// use std::ops::Deref;
 
+// struct Vec<T> {
+//     data: T,
+// }
+// impl<T> Deref for Vec<T> {
+//     type Target = Type;
+//     fn deref(&self) -> &<Self as Deref>::Target {
+//         todo!()
+//     }
+// }
 //2.4 Default 特性
 //
 // use std::{path::PathBuf, time::Duration};
