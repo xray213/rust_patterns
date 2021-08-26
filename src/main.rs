@@ -1,19 +1,22 @@
-use std::{path::PathBuf, time::Duration};
 
-#[derive(Debug, Default)]
-struct MyConfiguration {
-    output: Option<PathBuf>,
-    search_path: Vec<PathBuf>,
-    timeout: Duration,
-    check: bool,
-}
-impl MyConfiguration {}
+//2.4 Default 特性
+//
+// use std::{path::PathBuf, time::Duration};
 
-fn main() {
-    let mut conf = MyConfiguration::default();
-    conf.check = true;
-    println!("conf={:#?}", conf);
-}
+// #[derive(Debug, Default)]
+// struct MyConfiguration {
+//     output: Option<PathBuf>,
+//     search_path: Vec<PathBuf>,
+//     timeout: Duration,
+//     check: bool,
+// }
+// impl MyConfiguration {}
+
+// fn main() {
+//     let mut conf = MyConfiguration::default();
+//     conf.check = true;
+//     println!("conf={:#?}", conf);
+// }
 
 //2.2 用format!连接字符串
 //
