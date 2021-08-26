@@ -1,8 +1,5 @@
 use std::{path::PathBuf, time::Duration};
 
-// fn main() {
-//     println!("Hello, world!");
-// }
 #[derive(Debug, Default)]
 struct MyConfiguration {
     output: Option<PathBuf>,
