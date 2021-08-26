@@ -38,6 +38,7 @@ fn builder_test() {
     assert_eq!(foo, foo_from_builder);
 }
 
+
 //用mem::{take(_), replace(_)}在修改枚举变体时保持值的所有权
 
 // use std::mem;
